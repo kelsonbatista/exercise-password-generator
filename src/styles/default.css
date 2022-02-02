@@ -1,0 +1,234 @@
+body {
+  background: #040f2d;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.color__field {
+  background: #091642;
+}
+
+.color__title {
+  color: #5066ac;
+}
+
+.color__button {
+  background: #305ef1;
+}
+
+.color__button:hover {
+  background: #2548bd;
+}
+
+.button {
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 25px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.image__avatar {
+  width: 50px;
+}
+
+.header__back {
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.header__middle {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.password {
+  padding: 10px;
+  width: 100%;
+}
+
+.password__title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.password__generated {
+  font-size: 1.1rem;
+  padding: 25px;
+  text-align: center;
+}
+
+.password__length, .password__settings {
+  padding: 15px;
+}
+
+/* The slider itself */
+.password__length-slider {
+  width: 100%; /* Full-width */
+  height: 5px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.password__length-slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.password__length-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  background: white; /* Green background */
+  border-radius: 50px;
+  cursor: pointer; /* Cursor on hover */
+  height: 25px; /* Slider handle height */
+  width: 25px; /* Set a specific slider handle width */
+}
+
+.password__length-slider::-moz-range-thumb {
+  background: white; /* Green background */
+  border-radius: 50px;
+  cursor: pointer; /* Cursor on hover */
+  height: 25px; /* Slider handle height */
+  width: 25px; /* Set a specific slider handle width */
+}
+
+.password__settings {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+/* The switch - the box around the slider */
+.password__switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.password__switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.password__settings-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.password__settings-slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .password__settings-slider {
+  background-color: #2196F3;
+}
+
+input:focus + .password__settings-slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .password__settings-slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.password__settings-slider.round {
+  border-radius: 34px;
+}
+
+.password__settings-slider.round:before {
+  border-radius: 50%;
+}
+
+.user {
+  display: none;
+  width:50%;
+}
+
+@media only screen and (min-width: 750px){
+  .user {
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .bar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 1%;
+  }
+
+  .bar__line {
+    background: #5066ac;
+    border: none;
+    padding: 0 350px;
+    transform: rotate(90deg);
+    height: 3px;
+    width: 500px;
+  }
+
+  .password {
+    padding: 0 30px;
+    width: 50%;
+  }
+
+  .header__middle {
+    display: none;
+  }
+
+	.image__avatar {
+    width: 200px;
+  }
+  
+  .user__avatar {
+    text-align: center;
+  }
+
+  .user__info {
+    margin: 20px auto;
+    padding: 20px;
+    width: 85%;
+  }
+}
