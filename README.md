@@ -1,23 +1,20 @@
-Gerador de senhas aleatórias
+# About the project / *Sobre o projeto*
 
-Nesse exercício iremos replicar o layout de um gerador de senhas. Este layout é baseado no [seguinte design](https://dribbble.com/shots/5900275-Password-Manager-App-Generate-Password-Settings)
+This project is random password generator, based on the layout provided, using React and Redux.
 
-# Observações
+*Esse projeto é um gerador de senhas aleatórias, baseado no layout fornecido, utilizando React e Redux*
 
-- Componentizar ao máximo a aplicação
-- Organização do código e das pastas
-- Aplicação Mobile First
-- Replicar o layout da aplicação (cores, alinhamentos)
-- Cobertura de testes 60%
-- Salvar a última senha gerada no localStorage
+---
+# Skills / *Habilidades*
 
-# Bônus
+  - Javascript, HTML, CSS
+  - React JS
+  - Redux for state management / *gerenciamento de estado*
+  - Mobile first
+  - LocalStorage
 
-- Utilizar um gerenciador de estado (Redux)
-- Cobertura de testes 100%
-- Disponibilizar a aplicação no Github Pages ou outro servidor (ex. Netlify, Heroku)
-
+---
 # Layout
 
-![Tela principal](/password-generator-layout.png)
-![Tela com senha gerada](/password-final.png)
+![Main screen](/password-generator-layout.png)
+![Password generated](/password-final.png)

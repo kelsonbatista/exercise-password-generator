@@ -46,7 +46,8 @@ class GeneratePassword extends Component {
     for (let i = 1; i <= length; i += 1) {
       result += combine.charAt(Math.random() * (combine.length));
     }
-    this.setState({ password: result });
+    this.setState({ password: result },
+      localStorage.setItem('generated_password', result));
   }
 
   handleCheck = (checked, id) => {
