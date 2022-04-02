@@ -1,6 +1,6 @@
 # About the project / *Sobre o projeto*
 
-This project is random password generator, based on the layout provided, using React and Redux.
+This project is a random password generator, based on the layout provided, using React and Redux.
 
 *Esse projeto é um gerador de senhas aleatórias, baseado no layout fornecido, utilizando React e Redux*
 
