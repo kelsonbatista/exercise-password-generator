@@ -9,12 +9,16 @@ This project is random password generator, based on the layout provided, using R
 
   - Javascript, HTML, CSS
   - React JS
-  - Redux for state management / *gerenciamento de estado*
-  - Mobile first
+  - Redux for state management / *Redux para gerenciamento de estado*
+  - Mobile first / *Focado em mobile*
   - LocalStorage
 
 ---
 # Layout
 
-![Main screen](/password-generator-layout.png)
-![Password generated](/password-final.png)
+<img src="intro.gif" alt="Password generator" />
+
+---
+# Deployment / *Implantação*
+
+See it in action/ **Veja em ação**: [https://kelsonbatista.github.io/project-password-generator/](https://kelsonbatista.github.io/project-password-generator/)
