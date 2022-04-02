@@ -7,7 +7,7 @@ import NotFound from './pages/NotFound';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/project-password-generator">
       <Switch>
         <Route exact path="/" component={ GeneratePassword } />
         <Route path="*" component={ NotFound } />
