@@ -50,6 +50,7 @@
     "eslint": "^7.5.0",
     "eslint-config-trybe-frontend": "1.2.2",
     "eslint-plugin-jest-dom": "^3.9.0",
-    "eslint-plugin-testing-library": "^4.10.0"
+    "eslint-plugin-testing-library": "^4.10.0",
+    "gh-pages": "^3.2.3"
   }
 }
